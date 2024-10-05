@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página con Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <article class="container mt-5">
+        <h1>Mi Página con Bootstrap</h1>
+        <p>Bootstrap es un framework front-end utilizado para desarrollar aplicaciones web y sitios mobile first, o sea, con un layout que se adapta a la pantalla del dispositivo utilizado por el usuario.</p>
+
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Paterno</th>
+                    <th scope="col">Materno</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Luis</td>
+                    <td>Ramos</td>
+                    <td>Gómez</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>María</td>
+                    <td>Castro</td>
+                    <td>López</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Carlos</td>
+                    <td>Sánchez</td>
+                    <td>Díaz</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="row text-center mt-4">
+            <div class="col-md-4">
+                <h3>Compiladores</h3>
+                <p>Lenguajes de programación que se utilizan para convertir código fuente en ejecutables.</p>
+                <p>Info adicional sobre compiladores, su importancia en el desarrollo de software, y ejemplos de compiladores populares como GCC y Clang.</p>
+                <a href="compiladores.html" class="btn btn-link">Link 1</a>
+            </div>
+            <div class="col-md-4">
+                <h3>Contabilidad</h3>
+                <p>La contabilidad es el proceso de registrar, clasificar y resumir las transacciones financieras.</p>
+                <p>Info adicional sobre sistemas de contabilidad, su uso en empresas y ejemplos de software de contabilidad como QuickBooks.</p>
+                <a href="contabilidad.html" class="btn btn-link">Link 2</a>
+            </div>
+            <div class="col-md-4">
+                <h3>Base de Datos</h3>
+                <p>Conjuntos de información organizados que permiten un fácil acceso, gestión y actualización.</p>
+                <p>Info adicional sobre bases de datos relacionales y no relacionales, y ejemplos de sistemas como MySQL y MongoDB.</p>
+                <a href="basededatos.html" class="btn btn-link">Link 3</a>
+            </div>
+        </div>
+    </article>
+
+    <footer class="bg-primary text-white text-center p-4 mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>UBICACIÓN</h5>
+                <p>Tuxtla Gutiérrez, Chiapas</p>
+            </div>
+            <div class="col-md-6">
+                <h5>CONTACTO</h5>
+                <p>linda.martinez76@unach.mx</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

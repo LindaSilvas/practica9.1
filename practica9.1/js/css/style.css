@@ -1,0 +1,16 @@
+body {
+    background-color: #e3f2fd;
+}
+
+h1 {
+    color: #007bff;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+}
